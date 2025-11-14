@@ -31,16 +31,16 @@ main:
     url: /#news
 
    # Mother2
-  - name: Learn About Us
+  - name: More
     weight: 65
     hasChildren: true
 
   # Child
-  - parent: Learn About Us
+  - parent: More
     name: Experience
     url: experience/
   
   # Child
-  - parent: Learn About Us
+  - parent: More
     name: Facility
     url: facilities/
