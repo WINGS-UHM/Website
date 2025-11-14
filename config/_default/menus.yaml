@@ -20,7 +20,7 @@ main:
     url: experience/
     weight: 20
   - name: Team
-    url: /
+    url: teams/
     weight: 30
   - name: Courses
     url: courses/
