@@ -32,7 +32,7 @@ main:
 
    # Mother2
   - name: Learn About Us
-    weight: 60
+    weight: 65
     hasChildren: true
 
   # Child
