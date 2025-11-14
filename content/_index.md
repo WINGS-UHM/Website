@@ -9,26 +9,57 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: resume-biography-3
+  # - block: resume-biography-3
+  #   content:
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     username: admin
+  #     text: ''
+  #     # Show a call-to-action button under your biography? (optional)
+  #     button:
+  #       text: Download CV
+  #       url: uploads/resume.pdf
+  #     headings:
+  #       about: ''
+  #       education: ''
+  #       interests: ''
+  #   design:
+  #     # Apply a gradient background
+  #     css_class: hbx-bg-gradient
+  #     # Avatar customization
+  #     avatar:
+  #       size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+  #       shape: circle # Options: circle (default), square, rounded
+  - block: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ''
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-      headings:
-        about: ''
-        education: ''
-        interests: ''
+      title: WINGS Lab
+      text: Wireless Intelligent Networks for FutureG with Security
+      primary_action:
+        text: Github
+        url: https://github.com/WINGS-UHM
+        # icon: rocket-launch
+        icon: brands/github
+      secondary_action:
+        text: Read the docs
+        url: https://docs.hugoblox.com
+      # announcement:
+      #   text: "Announcing the release of version 1."
+      #   link:
+      #     text: "Read more"
+      #     url: "/blog/"
     design:
-      # Apply a gradient background
-      css_class: hbx-bg-gradient
-      # Avatar customization
-      avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+      # spacing:
+      #   padding: [0, 0, 0, 0]
+      #   margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: ""
+      background:
+        color: ""
+        image:
+          # Add your image background to `assets/media/`.
+          filename: ""
+          filters:
+            brightness: 0.5
+
   - block: markdown
     content:
       title: '📚 My Research'
