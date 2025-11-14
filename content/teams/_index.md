@@ -1,6 +1,6 @@
 ---
 title: Team
-summary: All main contribution to this group
+summary: All main contributors to this group
 type: landing
 
 cascade:
@@ -12,27 +12,28 @@ cascade:
 
 sections:
   - block: collection
-    id: teams
+    id: team-pi
     content:
-      title: Priciple
+      title: Principal Investigator
       filters:
-        tag: PI
+        tags: ["PI"]
         kinds:
-          - section
+          - page
     design:
       view: article-grid
       show_read_time: false
       show_date: false
       show_read_more: false
       columns: 3
+
   - block: collection
-    id: teams
+    id: team-phd
     content:
-      title: PhD
+      title: PhD Students
       filters:
-        tag: phd
+        tags: ["phd"]
         kinds:
-          - section
+          - page
     design:
       view: article-grid
       show_read_time: false
