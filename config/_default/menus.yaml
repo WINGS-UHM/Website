@@ -7,9 +7,17 @@ main:
     url: /#papers
     weight: 20
 
-  # Mother
-  - name: Events
+  - name: Team
+    url: teams/
     weight: 30
+
+  - name: Courses
+    url: courses/
+    weight: 40
+  
+    # Mother1
+  - name: Events
+    weight: 50
     hasChildren: true
 
   # Child
@@ -22,14 +30,17 @@ main:
     name: News
     url: /#news
 
-  - name: Experience
-    url: experience/
-    weight: 40
-
-  - name: Team
-    url: teams/
-    weight: 50
-
-  - name: Courses
-    url: courses/
+   # Mother2
+  - name: Learn About Us
     weight: 60
+    hasChildren: true
+
+  # Child
+  - parent: Learn About Us
+    name: Experience
+    url: experience/
+  
+  # Child
+  - parent: Learn About Us
+    name: Facility
+    url: facilities/
