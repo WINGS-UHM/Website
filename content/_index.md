@@ -66,7 +66,7 @@ sections:
 
   - block: markdown
     content:
-      title: '📚 Research Interests
+      title: '📚 Our Team'
       subtitle: ''
       text: |-
           - Wireless Communication & FutureG
@@ -75,8 +75,10 @@ sections:
           - Privacy & Security for FutureG, AI for Security
           - Intelligent IoT and Cyber Physical Systems
     design:
+      columns: '2'
       spacing:
         padding: [0, 0, 0, 0]
+  # - block: collection
   #   id: papers
   #   content:
   #     title: Featured Publications
@@ -162,6 +164,7 @@ sections:
         url: xxue@hawaii.edu
     design:
       card:
-        css_class: bg-primary-300 dark:bg-primary-700
-        css_style: ""
+        # Card background color (CSS class)
+        css_class: 'bg-primary-300 dark:bg-primary-700'
+        css_style: ''
 ---
