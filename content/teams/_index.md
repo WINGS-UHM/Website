@@ -15,7 +15,7 @@ sections:
     id: team-pi
     content:
       title: Principal Investigator
-      filters: PI
+      filters:
         tags: ["PI"]
         kinds:
           - page
@@ -30,7 +30,7 @@ sections:
     id: team-phd
     content:
       title: PhD Students
-      filters: PhD
+      filters:
         tags: ["phd"]
         kinds:
           - page
