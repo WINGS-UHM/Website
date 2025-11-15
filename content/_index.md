@@ -110,15 +110,12 @@ sections:
           - events
     design:
       # Choose a layout view
-      view: showcase
-      # For the Showcase view, do you want to flip alternate rows?
-      flip_alt_rows: true
-      # view: article-grid
-      # fill_image: false
-      # columns: 2
-      # show_date: false
-      # show_read_time: false
-      # show_read_more: false
+      view: article-grid
+      fill_image: false
+      columns: 2
+      show_date: false
+      show_read_time: false
+      show_read_more: false
             # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
