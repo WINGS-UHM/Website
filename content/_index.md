@@ -59,6 +59,10 @@ sections:
           filename: ""
           filters:
             brightness: 0.5
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
 
   - block: markdown
     content:
