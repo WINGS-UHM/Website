@@ -127,8 +127,13 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: card
-      # Reduce spacing
+      view: article-grid
+      fill_image: false
+      columns: 2
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+            # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
   - block: cta-card
