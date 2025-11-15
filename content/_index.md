@@ -62,11 +62,11 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-        margin: [0, 0, 0, 0]
+        # margin: [0, 0, 0, 0]
 
   - block: markdown
     content:
-      title: '📚 Our Team'
+      title: '📚 Research Interests
       subtitle: ''
       text: |-
           - Wireless Communication & FutureG
@@ -110,12 +110,13 @@ sections:
           - events
     design:
       # Choose a layout view
-      view: article-grid
-      fill_image: false
-      columns: 2
-      show_date: false
-      show_read_time: false
-      show_read_more: false
+      view: showcase
+      # view: article-grid
+      # fill_image: false
+      # columns: 2
+      # show_date: false
+      # show_read_time: false
+      # show_read_more: false
             # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
