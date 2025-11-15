@@ -110,7 +110,9 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
-
+            # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
   - block: collection
     id: news
     content:
