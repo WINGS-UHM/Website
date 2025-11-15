@@ -16,9 +16,14 @@ sections:
     content:
       title: Principal Investigator
       filters:
-        tags: ["PI"]
-        kinds:
-          - page
+        # 只从 teams 这个 section 里取内容
+        folders:
+          - teams
+        # 只要 tag 为 "PI" 的页面
+        tag: "PI"
+        exclude_future: false
+        exclude_past: false
+      count: 0   # 0 表示不限制数量
     design:
       view: article-grid
       show_read_time: false
@@ -31,9 +36,12 @@ sections:
     content:
       title: PhD Students
       filters:
-        tags: ["phd"]
-        kinds:
-          - page
+        folders:
+          - teams
+        tag: "phd"
+        exclude_future: false
+        exclude_past: false
+      count: 0
     design:
       view: article-grid
       show_read_time: false
