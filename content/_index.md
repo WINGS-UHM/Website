@@ -65,11 +65,11 @@ sections:
       title: '📚 Our Team'
       subtitle: ''
       text: |-
-          - "Wireless Communication & FutureG"
-          - "Integrated Sensing and Communcation (ISAC)"
-          - "AI-Native RAN / O-RAN"
-          - "Privacy & Security for FutureG, AI for Security"
-          - "Intelligent IoT and Cyber Physical Systems"
+          - Wireless Communication & FutureG
+          - Integrated Sensing and Communcation (ISAC)
+          - AI-Native RAN / O-RAN
+          - Privacy & Security for FutureG, AI for Security
+          - Intelligent IoT and Cyber Physical Systems
     design:
       columns: '2'
   # - block: collection
