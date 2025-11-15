@@ -1,7 +1,7 @@
 ---
 title: "An example preprint / working paper"
 authors:
-- admin
+- xiaochan-xue
 date: "2019-04-07T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
