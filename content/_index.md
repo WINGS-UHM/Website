@@ -161,7 +161,7 @@ sections:
         Please contact with us if you have any iterested cooperation!
       button:
         text: Connect
-        url: xxue@hawaii.edu
+        url: https://luna-xue.github.io/
     design:
       card:
         # Card background color (CSS class)
