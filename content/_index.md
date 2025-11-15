@@ -66,7 +66,7 @@ sections:
 
   - block: markdown
     content:
-      title: '📚 Our Team'
+      title: '📚 Research Interests'
       subtitle: ''
       text: |-
           - Wireless Communication & FutureG
@@ -156,7 +156,7 @@ sections:
   - block: cta-card
     demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: 👉 Connect With Us?
+      title: 👉 Interested in Our Research?
       text: |-
         Please contact with us if you have any iterested cooperation!
       button:
