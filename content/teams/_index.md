@@ -5,7 +5,7 @@ type: landing
 
 cascade:
   - target:
-      path: '{/teams/*/**}'
+      path: '{/teams/*}'
     type: docs
     params:
       show_breadcrumb: true
