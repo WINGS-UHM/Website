@@ -75,7 +75,6 @@ sections:
           - Privacy & Security for FutureG, AI for Security
           - Intelligent IoT and Cyber Physical Systems
     design:
-      columns: 2
       spacing:
         padding: [0, 0, 0, 0]
   #   id: papers
