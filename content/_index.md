@@ -111,6 +111,8 @@ sections:
     design:
       # Choose a layout view
       view: showcase
+      # For the Showcase view, do you want to flip alternate rows?
+      flip_alt_rows: true
       # view: article-grid
       # fill_image: false
       # columns: 2
